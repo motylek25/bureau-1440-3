@@ -6,5 +6,6 @@ def A_40():
         f.append(next_val)
         if next_val % 2 != 0:
             A.append(next_val)   
-    return A[39]  
-print(A_40())
+    return A[39]
+res = A_40()  
+print(res)
